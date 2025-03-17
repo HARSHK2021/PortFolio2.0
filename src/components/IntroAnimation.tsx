@@ -12,7 +12,7 @@ const IntroAnimation: React.FC<IntroAnimationProps> = ({ onComplete }) => {
     // After 3 seconds, start fading out the intro
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 3000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -28,7 +28,7 @@ const IntroAnimation: React.FC<IntroAnimationProps> = ({ onComplete }) => {
           exit={{ 
             opacity: 0,
             transition: { 
-              duration: 1,
+              duration: 0.5,
               ease: "easeInOut"
             }
           }}
@@ -54,7 +54,7 @@ const IntroAnimation: React.FC<IntroAnimationProps> = ({ onComplete }) => {
               }
             }}
           >
-            HARSH
+            Hey👋 there
           </motion.h1>
         </motion.div>
       )}

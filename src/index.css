@@ -188,3 +188,11 @@
   background: linear-gradient(90deg, rgba(0, 255, 65, 0.8), transparent);
   animation: shooting-star 5s linear infinite;
 }
+.card-transition {
+  transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.perspective-1500 {
+  perspective: 1500px;
+  transform-style: preserve-3d;
+}

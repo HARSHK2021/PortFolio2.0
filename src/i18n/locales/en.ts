@@ -65,18 +65,39 @@ export default {
     },
     project4: {
       title: 'CarrerHive',
-      description: 'A creative portfolio website with smooth animations and interactive elements.'
-      
-
+      description: 'A creative portfolio website with smooth animations and interactive elements.',
+      imageUrl: '',
+      technologies: ['React', 'Javascript', 'Tailwind CSS', 'ShadcnUI'],
+      liveLink: 'https://carrerhive.onrender.com/',
+      codeLink: 'https://github.com/HARSHK2021/CARRERHIVE'
 
     },
     project5: {
       title: 'SudokuSolver',
-      description: 'A fully responsive e-commerce platform with product filtering, cart functionality, and payment integration.'
+      description: 'A smart Sudoku solver that quickly solves any puzzle with accuracy and efficiency ',
+      imageUrl: '',
+      technologies: ['React', 'Javascript', 'Tailwind CSS', 'ShadcnUI'],
+      liveLink: 'curious-puffpuff-88a941.netlify.app/',
+      codeLink: 'https://github.com/HARSHK2021/sudokuSolver-game'
+     
     },
     project6: {
       title: 'BookMyRide',
-      description: 'A fully responsive e-commerce platform with product filtering, cart functionality, and payment integration.'
+      description: 'This Uber Clone is a feature-rich ride-hailing app that provides a seamless experience for both riders and drivers.',
+      imageUrl: '',
+      technologies: ['React', 'Javascript', 'Tailwind CSS', 'Gsap'],
+      liveLink: 'curious-puffpuff-88a941.netlify.app/',
+      codeLink: ' https://github.com/HARSHK2021/BookMyRide',
+
+    },
+    project7: {
+      title: 'FloppyBird',
+      description: 'A fun and challenging Flappy Bird-inspired game ',
+      imageUrl: '',
+      technologies: ['React', 'Javascript', 'Tailwind CSS', 'Nextjs'],
+      liveLink: 'flyfar.netlify.app/',
+      codeLink: ' https://github.com/HARSHK2021/FloopyBird',
+
     },
     
   },
