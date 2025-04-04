@@ -77,7 +77,7 @@ export default {
       description: 'A smart Sudoku solver that quickly solves any puzzle with accuracy and efficiency ',
       imageUrl: '',
       technologies: ['React', 'Javascript', 'Tailwind CSS', 'ShadcnUI'],
-      liveLink: 'curious-puffpuff-88a941.netlify.app/',
+      liveLink: 'https://curious-puffpuff-88a941.netlify.app/',
       codeLink: 'https://github.com/HARSHK2021/sudokuSolver-game'
      
     },
@@ -95,7 +95,7 @@ export default {
       description: 'A fun and challenging Flappy Bird-inspired game ',
       imageUrl: '',
       technologies: ['React', 'Javascript', 'Tailwind CSS', 'Nextjs'],
-      liveLink: 'flyfar.netlify.app/',
+      liveLink: 'https://flyfar.netlify.app/',
       codeLink: ' https://github.com/HARSHK2021/FloopyBird',
 
     },
